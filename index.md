@@ -1,0 +1,20 @@
+<html>
+<h3>Test Chat</h3>
+<body>
+<!-- Place this tag where you want the Live Helper Plugin to render. -->
+<div id="lhc_status_container_page" ></div>
+
+<!-- Place this tag after the Live Helper Plugin tag. -->
+<script type="text/javascript">
+var LHCChatOptionsPage = {'height':300,'mobile':false};
+LHCChatOptionsPage.opt = {};
+(function() {
+var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+var referrer = (document.referrer) ? encodeURIComponent(document.referrer.substr(document.referrer.indexOf('://')+1)) : '';
+var location  = (document.location) ? encodeURIComponent(window.location.href.substring(window.location.protocol.length)) : '';
+po.src = '//beshara.livehelperchat.com/eng/chat/getstatusembed?r='+referrer+'&l='+location;
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+})();
+</script>
+</body>
+</html>
